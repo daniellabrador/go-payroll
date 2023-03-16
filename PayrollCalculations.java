@@ -1,3 +1,9 @@
+/**
+ * Payroll Calculations
+ * 
+ * This file contains the methods for calculating the payroll of an employee.
+*/
+
 public class PayrollCalculations {
   // Define contants for tax rates and contribution rates
   private static class TaxBracket {

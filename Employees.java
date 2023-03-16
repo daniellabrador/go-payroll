@@ -1,11 +1,23 @@
+/**
+ * Employees
+ *
+ * This class contains the methods that are used to manage the employees being
+ * housed as an ArrayList.
+*/
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Employees {
+  // ARRAYLIST OF EMPLOYEES
   private static ArrayList<Employee> employees = new ArrayList<Employee>();
 
   public static ArrayList<Employee> getEmployees() {
     return employees;
+  }
+
+  public static void setEmployees(ArrayList<Employee> employees) {
+    Employees.employees = employees;
   }
 
 

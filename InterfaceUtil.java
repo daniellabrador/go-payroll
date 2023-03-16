@@ -1,3 +1,9 @@
+/**
+ * Interface Utility
+ * 
+ * This class contains methods that are used to print the interface.
+*/
+
 public class InterfaceUtil {
   public static void printHeader(String title) {
     StringBuilder s = new StringBuilder();
@@ -22,6 +28,7 @@ public class InterfaceUtil {
 
     System.out.println("\n");
     System.out.println(s);
+    CSVHandler.writeCSV("data.csv", Employees.getEmployees());
   }
 
   public static void printMenu(String[] menuOptions) {
@@ -31,10 +38,6 @@ public class InterfaceUtil {
 
     System.out.println();
 
-  }
-
-  public static void switchMenu(String currentMenu, String[] menuOptions, int choice) {
-    
   }
 
   public static void printInfo(String info) {

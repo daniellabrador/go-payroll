@@ -1,4 +1,11 @@
+/**
+ * Employee
+ * 
+ * This class represents an employee in the payroll system.
+*/
+
 public class Employee {
+  // Attributes and Constructor
   private int id;
   private String firstName;
   private String lastName;
@@ -12,7 +19,7 @@ public class Employee {
   private double netSalary;
 
   public Employee(int id, String firstName, String lastName, String position,
-  double basicSalary) {
+  double basicSalary) { 
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
@@ -26,6 +33,7 @@ public class Employee {
     this.netSalary = PayrollCalculations.computeNetSalary(basicSalary);
   }
 
+  // Getters and Setters
   public int getId(){
     return this.id;
   }
@@ -90,6 +98,7 @@ public class Employee {
     this.basicSalary = basicSalary;
   }
 
+  // toString() method
   public String toString() {
     return "ID: " + this.id + "\nName: " + this.firstName + " " + this.lastName + "\nPosition: " + this.position + "\nBasic Salary: " + this.basicSalary;
   }

@@ -1,3 +1,10 @@
+/**
+ * Employee System
+ * 
+ * This file contains the main method of the Employee System. It is responsible
+ * for displaying the menu of the employee system.
+*/
+
 import java.util.Scanner;
 
 public class EmployeeSystem {
@@ -80,7 +87,7 @@ public class EmployeeSystem {
 
 
 
-  // Todo UPDATE EMPLOYEE
+  // UPDATE EMPLOYEE
   public static void updateEmployee(){
     InterfaceUtil.printHeader("UPDATE EMPLOYEE");
 

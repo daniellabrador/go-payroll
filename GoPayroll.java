@@ -8,12 +8,11 @@
  * [1] Employees Menu - View and/or edits the details of the employees in the
  *     system
  * [2] Generate Payroll - Generate payroll for all employees in the system
- * [3] Generate Payslip - Generate a payslip for a specific employee
  *
  * The main method of this class initializes the Payroll System and starts the
  * application.
  * 
- * To run the Payroll System application, simply run this Java file.
+ * To run the Payroll System application, compile and run this file.
  * 
  * @author  Thony Danielle Labrador
  *          Jemriz Advincula
@@ -23,7 +22,12 @@
 
 public class GoPayroll {
     public static void main(String[] args) {
-        CSVReader.readEmployeesFromFile();
+        System.out.println("Loading data...");
+        loadData();
         PayrollSystem.start();
+    }
+
+    public static void loadData() {
+        Employees.setEmployees(CSVHandler.readCSV("data.csv"));
     }
 }

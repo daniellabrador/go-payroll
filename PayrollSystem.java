@@ -1,3 +1,10 @@
+/**
+ * Payroll System
+ * 
+ * This file contains the main method of the Payroll System. It is responsible
+ * for initializing the main menu of the system.
+*/
+
 public class PayrollSystem {
   //! Runs the menu prompt
   public static void openMenu() {

@@ -1,3 +1,11 @@
+/**
+ * Router
+ * 
+ * This class is responsible for routing the user to the appropriate menu
+ * based on the user's choice. It is also responsible for displaying the menu
+ * options and the menu header.
+*/
+
 import java.util.Scanner;
 
 public class Router {
@@ -66,7 +74,6 @@ public class Router {
         // Universal
         case "Exit":
             System.out.println("Saving data to file...");
-            CSVExporter.writeEmployeesToFile(Employees.getEmployees());
             System.out.println("Exiting...");
             System.exit(1000);
             break;
