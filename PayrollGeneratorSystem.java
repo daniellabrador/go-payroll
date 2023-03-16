@@ -8,7 +8,7 @@
 public class PayrollGeneratorSystem {
   
   public static void openMenu() {
-    Router payrollGenerator = new Router("PAYROLL",
+    Router payrollGenerator = new Router("SEMI-MONTHLY PAYROLL",
       getPayrollTable(), new String[] {
         "Back to Main Menu",
         "Exit"
