@@ -1,0 +1,147 @@
+# MENU 
+======================================
+       GO PAYROLL SYSTEM MENU
+======================================
+[1] Employees Details
+[2] Add Employee
+[3] Edit Employee Details
+[4] Delete Employee
+[5] Generate Payroll
+[6] Generate Payslip
+[7] Exit
+
+Select an option:
+
+
+
+# VIEW ALL EMPLOYEES
+======================================
+         EMPLOYEES DETAILS
+======================================
+ID     Name                   Position
+####   Q. Apolinaria          Manager
+####   T. Labrador            Engineer
+####   J. Cimafranca          Analyst
+####   J. Advincula           Engineer
+
+[1] View employee
+[2] Back
+[3] Menu
+[3] Exit
+
+Select an option:
+
+
+# VIEW EMPLOYEE DETAILS
+======================================
+           EMPLOYEE DETAILS
+======================================
+ID: ####
+Name: Thony Danielle Alibangbang Labrador
+Position: Engineer
+Gross Semi-Monthly Pay: 22500.00
+
+[1] Modify Details
+[2] Back
+[3] Menu
+[3] Exit
+
+Select an option:
+
+
+# EDIT EMPLOYEE DETAILS
+======================================
+           MODIFY EMPLOYEE
+======================================
+Enter employee ID (black to keep currend ID): 1
+Enter new first name (blank to keep current name): 
+Enter new last name (blank to keep current name): 
+Enter new position (blank to keep current position): 
+Enter new gross basic pay (blank to keep current pay): 35000
+
+[1] Confirm
+[2] Cancel
+[3] Cancel and Go Back to Menu
+[4] Exit
+
+Select an option:
+Employee modified successfully.
+
+
+
+# ADD EMPLOYEE
+======================================
+            ADD EMPLOYEE
+======================================
+Enter first name: John
+Enter last name: Smith
+Enter position: Programmer
+Enter gross basic pay: 30000
+
+[1] Submit
+[2] Cancel
+[4] Exit
+
+Select an option:
+Employee added successfully.
+
+
+
+# GENERATE PAYROLL
+======================================
+          GENERATE PAYROLL
+======================================
+Enter month and year (MM/YYYY): 03/2023
+
+Payroll Summary for March 2023
+------------------------------
+ID  Name           Gross Basic Pay  Net Pay
+--------------------------------------------
+1   John Smith     35000.00        32050.00
+
+[1] Export to CSV
+[2] Menu
+[3] Exit
+
+
+
+# GENERATE PAYSLIP
+======================================
+           GENERATE PAYSLIP
+======================================
+Enter employee ID: 1
+Enter month and year (MM/YYYY): 03/2023
+
+[1] Days 1 to 15
+[2] Days 15 to end of month
+
+Select date range: 
+
+
+Payslip for John Smith
+Month: March 1-15, 2023
+----------------------
+ID: ####
+Name: John Smith
+Position: Programmer
+Gross Basic Pay: 35000.00
+
+Withholding Tax: 1530.00
+SSS: 1375.00
+PhilHealth: 700.00
+Pag-IBIG: 50.00
+Total Deductions: 3655.00
+
+Net Pay: 31345.00
+----------------------
+
+[1] Menu
+[2] Exit
+
+Select option:
+
+
+
+# EXIT
+Exiting...
+
